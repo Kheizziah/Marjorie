@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="likes.css">
+    <title>My Likes</title>
+</head>
+<body>
+    <header id="top">
+        <div>
+            <img src="images/menu-icon.jpg" class="menu-icon" onclick="togglemenu()">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">Back to Homepage</a></li>
+                    <li><a href="#section-2">Would you Rather?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <script>
+            var menuList = document.getElementById("menuList");
+    
+            menuList.style.maxHeight = "0px";
+    
+            function togglemenu(){
+                
+               if(menuList.style.maxHeight == "0px")
+                  {
+                    menuList.style.maxHeight = "180px";
+                  }
+                else 
+                  {
+                    menuList.style.maxHeight = "0px";
+                  }
+            }
+        </script>
+
+    <section>
+        <div class="section-likes">
+            <div class="title">
+                <h1>Likes</h1>
+            </div>
+            <div class="likes"></div>
+        </div>
+    </section>
+    <section>
+            <div class="section-title">
+              <h2 id="#section-1">This or That</h2> <!--------------------->
+                <div id="gallery">
+                    <img src="images/1l.webp" alt="Introvert" class="this">
+                    <img src="images/1r.jpg" alt="Extrovert">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/2l.jpg" alt="Left Hand">
+                    <img src="images/2r.jpg" alt="Right Hand" class="this">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/3l.jpg" alt="Simple" class="depends">
+                    <img src="images/3r.jpg" alt="Glam" class="depends">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/4l.jpg" alt="Rain" class="depends">
+                    <img src="images/4r.jpg" alt="Sunshine" class="depends">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/5l.jpg" alt="Early Bird">
+                    <img src="images/5r.webp" alt="Night Owl" class="this">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/6l.jpg" alt="Get Even">
+                    <img src="images/6r.jpg" alt="Get Over It" class="this">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/7l.png" alt="Night Out" class="this">
+                    <img src="images/7r.jpg" alt="Night In">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/8l.jpg" alt="Calls">
+                    <img src="images/8r.png" alt="Text" class="this">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/9l.jpg" alt="Sunrise">
+                    <img src="images/9r.jpg" alt="Sunset" class="this">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/10l.webp" alt="Always Late">
+                    <img src="images/10r.jpg" alt="Always Early" class="this">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/11l.jpg" alt="Dog Person" class="this">
+                    <img src="images/11r.jpg" alt="Cat Person">
+                </div>
+                <hr>
+                <div id="gallery">
+                    <img src="images/12l.jpg" alt="Dreamer" class="both">
+                    <img src="images/12r.jpg" alt="Realist" class="both">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/13l.jpg" alt="Walking">
+                    <img src="images/13r.jpeg" alt="Driving" class="this">
+                </div>
+            <div id="section-2">
+              <h2>Would you rather?</h2> <!--------------------->
+                <div id="gallery" class="bottom">
+                    <img src="images/1a.jpg" alt="City">
+                    <img src="images/1b.jpg" alt="Countryside" class="this">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/2a.webp" alt="Strength">
+                    <img src="images/2b.jpg" alt="Fast" class="this">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/3a.jpeg" alt="Fly" class="this">
+                    <img src="images/3b.webp" alt="Invisible">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/4a.jpg" alt="Past" class="this">
+                    <img src="images/4b.jpg" alt="Future">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/6a.jpeg" alt="Time">
+                    <img src="images/6b.jpg" alt="Money" class="this">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/7a.jpg" alt="Boat" class="this">
+                    <img src="images/7b.jpg" alt="Plane">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/8a.jpg" alt="Space" class="both">
+                    <img src="images/8b.webp" alt="Ocean" class="both">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/9a.jpg" alt="Lottery" class="this">
+                    <img src="images/9b.webp" alt="Twice as Long Life">
+                </div>
+                <hr>
+                <div id="gallery" class="bottom">
+                    <img src="images/10a.jpg" alt="Talk to Animals">
+                    <img src="images/10b.webp" alt="Speak Every Language" class="this">
+                </div>
+                <hr>
+            </div>
+                <div class="end">
+                    <div>
+                        <nav>
+                           <ul>
+                            <li><a href="#top">Back to Top</a></li>
+                           </ul>
+                        </nav>
+                    </div>
+                </div>
+            
+    </section>     
+</body>
+</html>

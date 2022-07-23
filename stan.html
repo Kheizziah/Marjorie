@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stan.css">
+    <title>My Stan</title>
+</head>
+<body>
+    <header id="top">
+        <div>
+            <img src="images/menu-icon.jpg" class="menu-icon" onclick="togglemenu()">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">Back to Homepage</a></li>
+                    <li><a href="#others">Others</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <script>
+            var menuList = document.getElementById("menuList");
+    
+            menuList.style.maxHeight = "0px";
+    
+            function togglemenu(){
+                
+               if(menuList.style.maxHeight == "0px")
+                  {
+                    menuList.style.maxHeight = "180px";
+                  }
+                else 
+                  {
+                    menuList.style.maxHeight = "0px";
+                  }
+            }
+        </script>
+
+    <section>
+        <div class="section-likes">
+            <div class="title">
+                <h1>Stan</h1>
+            </div>
+            <div class="likes" id="likes">
+                <img src="images/skids-logo.jpg" alt="Stray Kids Logo">
+                <img src="images/exo-logo.webp" alt="Exo Logo">
+            </div>
+        </div>
+    </section>
+    <section>
+            <div class="section-title">
+              <h2 id="#section-1">Stray Kids</h2> <!--------------------->
+                <div id="gallery">
+                    <img src="images/-felix.jpg" alt="Felix">
+                </div>
+                <h2 id="#section-1">EXO</h2> <!--------------------->
+                <div id="gallery">
+                    <img src="images/-chanyeol.png" alt="Chanyeol">
+                </div>
+                <hr>
+            </div>
+            <div class="section-others" id="others">
+                <img src="images/others.png" alt="Others">
+            </div>
+               <h2 id="#section-1">Taylor Swift</h2> <!--------------------->
+                <div id="gallery">
+                    <img src="images/-taylor.webp" alt="Taylor">
+                </div>
+               <h2 id="#section-1">Michael Jackson</h2> <!--------------------->
+                <div id="gallery">
+                    <img src="images/-michael.webp" alt="Michael">
+                </div>
+               <h2 id="#section-1">Bruno Mars</h2> <!--------------------->
+                <div id="gallery">
+                    <img src="images/-bruno.webp" alt="Bruno">
+                </div>
+                <h2 id="#section-1">Marina</h2> <!--------------------->
+                <div id="gallery">
+                    <img src="images/-marina.jpg" alt="Marina">
+                </div>
+                <h2 id="#section-1">21 Pilot</h2> <!--------------------->
+                <div id="gallery">
+                    <img src="images/-21.jpg" alt="21">
+                </div>
+            </div>
+                <div class="end">
+                    <div>
+                        <nav>
+                           <ul>
+                            <li><a href="#top">Back to Top</a></li>
+                           </ul>
+                        </nav>
+                    </div>
+                </div>
+    </section>
+</body>
+</html>

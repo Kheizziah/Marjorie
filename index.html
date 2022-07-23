@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="container" id="contain">
+        <header class="main-header">
+            <div class="head">
+                <nav>
+                    <ul class="heads" id="menuList">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#section-gallery">Gallery</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="likes.html">Likes</a></li>
+                        <li><a href="mbti.html">MBTI</a></li>
+                        <li><a href="stan.html">Stan</a></li>
+                    </ul>
+                </nav>
+                <div class="blk">
+                    <img src="images/menu-icon.jpg" class="menu-icon" onclick="togglemenu()">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/marj-1.png" alt="A silhoutte" class="marj">
+                </div>
+                <div class="col-2">
+                    <h1>Marjorie</h1>
+                    <h2>Caboteja</h2>
+                    <div class="ruffa">
+                        <div><a href="https://www.facebook.com/profile.php?id=100077629070885"><p>@Kheizziah_RMS</p></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about"></div>
+        </main>
+    </div>
+        
+
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+            
+           if(menuList.style.maxHeight == "0px")
+              {
+                menuList.style.maxHeight = "180px";
+              }
+            else 
+              {
+                menuList.style.maxHeight = "0px";
+              }
+        }
+    </script>
+
+    <main>
+        <section class="gallery" id="intro">
+            <div id="section-gallery">
+              <div class="header-title">
+                <h2>Gallery</h2>
+                <h3>This webpage is intended to introduce Marjorie Caboteja.</h3>
+              </div>
+                <div id="gallery">
+                    <img src="images/1.PNG"/>
+                    <img src="images/2.PNG"/>
+                    <img src="images/3.PNG"/>
+                    <img src="images/4.PNG"/>
+                    <img src="images/5.PNG"/>
+                    <img src="images/6.PNG"/>
+                    <img src="images/7.PNG"/>
+                    <img src="images/8.PNG"/>
+                    <img src="images/9.PNG"/>
+                    <img src="images/10.PNG"/>
+                    <img src="images/11.PNG"/>
+                    <img src="images/12.PNG"/>
+                </div>
+            </div>
+           </section>
+    
+           <!-- Ending -->
+    
+    <div class="end-cam">
+        <nav class="red">
+           <ul>
+            <li><a href="#contain">Back to Top</a></li>
+           </ul>
+        </nav>
+    </div>
+    <div class="ora"></div>
+    </main>
+</body>
+</html>

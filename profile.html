@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>My Profile</title>
+</head>
+<body>
+        <header id="top">
+            <div>
+                <img src="images/menu-icon.jpg" class="menu-icon" onclick="togglemenu()">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="index.html">Back to Homepage</a></li>
+                        <li><a href="#section-2">Would you Rather?</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <script>
+                var menuList = document.getElementById("menuList");
+        
+                menuList.style.maxHeight = "0px";
+        
+                function togglemenu(){
+                    
+                   if(menuList.style.maxHeight == "0px")
+                      {
+                        menuList.style.maxHeight = "180px";
+                      }
+                    else 
+                      {
+                        menuList.style.maxHeight = "0px";
+                      }
+                }
+            </script>
+
+        <section>
+            <div class="section-likes">
+                <div class="title">
+                    <h1>Profile</h1>
+                </div>
+                <div class="likes"></div>
+            </div>
+        </section>
+        <section>
+                <div class="section-title">
+                  <h2 id="#section-1">Me, Myself, and I</h2> <!--------------------->
+                  <div class="section-others" id="others">
+                    <img src="images/prof.PNG" alt="Others">
+                   </div>
+                </div>
+                <div class="profile">
+                    <div class="row">
+                        <div class="g1">
+                            <h2>Dambie</h2>
+                            <p>
+                                Birthday: May 24, 2005 <br>
+                                Place of Birth: Manila <br>
+                                Height: 5'6 <br>
+                            </p>
+                        </div>
+                        <div class="g2">
+                            <h2>Zodiac Sign</h2>
+                            <div class="section-others" id="others">
+                                <img src="images/gemini.PNG" alt="Gemini" class="black">
+                               </div>
+                        </div>
+                        <div class="g3">
+                            <h2>Motto</h2>
+                            <div class="infj">
+                                <div>
+                                    <h5>“Live as if you were to die tomorrow. Learn as if you were to live forever.”</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g4">
+                            <div>
+                            <h2>Likes and Dislikes</h2>
+                            <p><h5>Likes:</h5> <br>
+                                 Colour: Black <br>
+                                 Season: Winter <br><br>
+                                 <h5>Dislikes:</h5> <br>
+                                 When someone is asking and asking questions that can be answer by common sense.                                 
+                            </p>
+                            </div>
+                        </div>
+                        <div class="hobby">
+                            <h2>Hobby</h2>
+                            <div class="try">
+                                <a href="https://www.youtube.com/watch?v=yW3ORzaRXt8"><h5>Try New Things</h5></a>
+                            </div>
+                        </div>
+                        <div class="g5">
+                            <h2>Biggest Fear</h2>
+                            <div class="afterlife">
+                                <h6>afterlife</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                    
+
+                </div>
+                    <div class="end">
+                        <div>
+                            <nav>
+                               <ul>
+                                <li><a href="#top">Back to Top</a></li>
+                               </ul>
+                            </nav>
+                        </div>
+                    </div>
+                
+        </section>
+</body>
+</html>
